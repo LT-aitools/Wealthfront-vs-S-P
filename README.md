@@ -12,7 +12,7 @@ Scrapes deposits data from Wealthfront statements, and does a "what if" scenario
 2. Run `checkdirectory.py` --> this imports the needed libraries and checks it can find the PDFs.
 3. Run `extract_wealthfront.py` --> This will extract data and save to a file called `investment_activity.csv`
 4. Edit CSV and save to a new file called `deposits.csv` with two columns (Date, Amount). Decide on an end date for your model (maybe when you started withdrawing?)
-6. Run one (or both?) of the finalized what-if models: 'voo_calc_gpt2` (prints a final result & outputs intermediate data to voo_portfolio_summary.csv`) and 'voo_calc_grok2` (prints a final result & outputs to `deposits_with_results.csv`).
+6. Run one (or both?) of the finalized what-if models: 'voo_calc_gpt2` (prints a final result & outputs intermediate data to `voo_portfolio_summary.csv`) and 'voo_calc_grok2` (prints a final result & outputs to `deposits_with_results.csv`).
 7. Run `extract_fees.py` --> This will scrape the statement PDFs and sum all the fees over the time period, so you can also consider the fees.
 
 ##Difference in models 
